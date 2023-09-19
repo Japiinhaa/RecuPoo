@@ -1,5 +1,6 @@
 class Banco:
     
+
     def __init__(self, nome, cnpj, contas):
         self.nome = nome
         self.cnpj = cnpj
@@ -35,10 +36,12 @@ class Banco:
         else:
             print("O valor minimo de deposito para a conta é a cima de 0, por favor digite o número novamente para depositar.")
 
+
     def transferir(self, origem, destino, valor):
         self.origem = origem
         self.destino = destino
         self.valor = valor
+
 
     def saldo(self, conta):
         self.conta
