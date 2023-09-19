@@ -1,4 +1,4 @@
-class banco:
+class Banco:
     
     def __init__(self, nome, cnpj, contas):
         self.nome = nome
@@ -11,3 +11,5 @@ class banco:
         self.cpf = cpf
         self.contas[self.id] = [self.nome, self.cpf]
         
+    def sacar(self, conta, valor):
+        pass

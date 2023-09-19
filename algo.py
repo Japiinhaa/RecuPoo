@@ -16,7 +16,7 @@ def main(opcoes):
             id = contaid
             nome = input('Nome: ')
             cpf = int(input('CPF: '))
-            ()
+            Banco.criar_conta(id, nome, cpf)
             os.system("cls")
         case 2:
             print('Você selecionou a opção de Sacar!')
