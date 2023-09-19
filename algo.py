@@ -29,8 +29,9 @@ def main(opcoes):
 
     match opcoes:
         case 1:
+            os.system('pause')
             print('Você selecionou a opção de Criar uma conta!')
-            contID += 1
+            contaid += 1
             id = contaid
             nome = input('Nome: ')
             cpf = int(input('CPF: '))
