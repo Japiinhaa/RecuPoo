@@ -19,18 +19,24 @@ def main(opcoes):
             Banco.criar_conta(id, nome, cpf)
             os.system("cls")
         case 2:
+            os.system('pause')
             print('Você selecionou a opção de Sacar!')
-            ()
+            valor = int(input('Digite o valor desejado à sacar > '))
+            Banco.sacar(valor)
             os.system("cls")
         case 3:
+            os.system('pause')
             print('Você selecionou a opção de Depositar!')
-            ()
+            valor = int(input('Digite o valor desejado à ser depositado > '))
+            Banco.depositar(valor)
             os.system("cls")
         case 4:
+            os.system('pause')
             os.system("cls")
             print('Você selecionou a opção de Transferir!')
             ()
         case 5:
+            os.system('pause')
             os.system("cls")
             print('Você selecionou a opição de Verificar Saldo')
             ()
