@@ -2,25 +2,6 @@ from Classe import *
 import os
 
 
-def criar_conta(self, nome, cpf):
-    nome = input('informe seu nome: ')
-    cpf = input('informe seu CPF: ')
-
-    def sacar(self, conta, valor):
-        self.conta = conta
-        self.valor = valor
-
-    def depositar(self, conta, valor):
-        pass
-
-    def transferir(self, origem, destino, valor):
-        pass
-
-    def saldo(self, conta):
-        pass
-
-
-
 def main(opcoes):
 
 
