@@ -34,12 +34,12 @@ def main(opcoes):
             os.system('pause')
             os.system("cls")
             print('Você selecionou a opção de Transferir!')
-            ()
+            Banco.transferir()
         case 5:
             os.system('pause')
             os.system("cls")
             print('Você selecionou a opição de Verificar Saldo')
-            ()
+            Banco.saldo()
         case _:
             print('Opção inválida!')
 
